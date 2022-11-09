@@ -1,53 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import PI1 from '../../assets/project-image-1.png'
-import PI2 from '../../assets/project-image-2.png'
-import PI3 from '../../assets/project-image-3.png'
-import PI4 from '../../assets/project-image-4.png'
-import PI5 from '../../assets/project-image-5.png'
-import PI6 from '../../assets/project-image-6.png'
+import imgMoPhinDark from '../../assets/project-images/mophin-dark.jpg'
+import imgTravelApp from '../../assets/project-images/travelling.jpg'
+import imgShoesWebsite from '../../assets/project-images/legitor.jpg'
+import imgResponsiveDashboard from '../../assets/project-images/responsive-dashboard.jpg'
+import imgResponsiveDashboardDark from '../../assets/project-images/responsive-dashboard-dark.jpg'
+import imgSpaceX from '../../assets/project-images/spacex-clone.jpg'
 
 const projectList = [
   {
     id: 1,
-    title: 'Project Title 01',
-    image: PI1,
-    github: 'https://github.com/teddone',
+    title: 'Movies Website',
+    image: imgMoPhinDark,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
   },
   {
     id: 2,
-    title: 'Project Title 02',
-    image: PI2,
-    github: 'https://github.com/teddone',
+    title: 'Responsive Dashboard Dark',
+    image: imgResponsiveDashboardDark,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
   },
   {
     id: 3,
-    title: 'Project Title 03',
-    image: PI3,
-    github: 'https://github.com/teddone',
+    title: 'Travel Website',
+    image: imgTravelApp,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
   },
   {
     id: 4,
-    title: 'Project Title 04',
-    image: PI4,
-    github: 'https://github.com/teddone',
+    title: 'SpaceX Website',
+    image: imgSpaceX,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
-  },
+  },  
   {
     id: 5,
-    title: 'Project Title 05',
-    image: PI5,
-    github: 'https://github.com/teddone',
+    title: 'Shoes Website',
+    image: imgShoesWebsite,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
   },
   {
     id: 6,
-    title: 'Project Title 06',
-    image: PI6,
-    github: 'https://github.com/teddone',
+    title: 'Responsive Dashboard',
+    image: imgResponsiveDashboard,
+    github: 'https://github.com/teddone/td-portfolio',
     demo: '#'
   },
 ]

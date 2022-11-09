@@ -7,7 +7,7 @@
 .portfolio__item {
     background: var(--color-bg-variant);
     border-radius: 2rem;
-    padding: 1.5rem;
+    padding: 0.88rem;
     border: 1px solid transparent;
 }
 
@@ -20,6 +20,9 @@
     margin: 1rem 0;
 }
 
+.portfolio__image img {
+    border-radius: 0.8rem;
+}
 
 .portfolio__cta {
     display: flex;
