@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>MoPhim</title>
+</head>
+<body>
+    <header class="mainheader">
+        <a class="logo" href="#">
+            <img src="./img/logo.png" alt="mophin">
+            MO<span>PHIN</span>
+        </a>
+        <div class="searchbar">
+			<span class="material-icons" style="color: #7F7F7F;/* margin: 0; */max-width: 2rem;">micnone</span>
+            <input type="search" name="search" id="search" placeholder="Type to search">
+        </div>
+        <div class="navright">
+            <label class="theme-toggler">
+                <input type="checkbox" name="theme-toggler" id="theme-toggler">
+            </label>
+            <div class="account">
+                <a href="#">Alex Kimberly <small class="text-muted">Premium</small></a>
+                <img src="./img/profile-1.png" alt="account">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons">whatshot</span>
+                    Trending
+                </a>
+                <a href="#">
+                    <span class="material-icons">explore</span>
+                    Explore
+                </a>
+                <a href="#">
+                    <span class="material-icons">video_library</span>
+                    My List
+                </a>
+                <a href="#">
+                    <span class="material-icons">expand_more</span>
+                    Show More
+                </a>
+                <div class="sidecontrol">
+                    <a href="#">
+                        <span class="material-icons">person</span>
+                        Account
+                    </a>
+                    <a href="#">
+                        <span class="material-icons">settings</span>
+                        Settings
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div class="hero-movie">
+                <div class="hero-image">
+                    <img src="https://www.themoviedb.org/t/p/original/ajztm40qDPqMONaSJhQ2PaNe2Xd.jpg" alt="star war andor 2022">
+                </div>
+                <div class="hero-info">
+                    <h2 class="movie-title">Star War: Andor <span>(2002)</span></h2>
+                    <div class="movie-info">                        
+                        <div class="rating-bg"><span class="rating">80%</span></div>
+                        <div class="tags">
+                            <button href="#" class="tag">Action</button>
+                            <button href="#" class="tag">Sci-fi & Fantasy</button>
+                            <button href="#" class="tag">War & Politics</button>
+                        </div>
+                    </div>
+                    <div class="overview">
+                        <h3>Overview</h3>
+                        <p>The tale of the burgeoning rebellion against the Empire and how people and planets became involved. In an era filled with danger, deception and intrigue, Cassian Andor embarks on the path that is destined to turn him into a rebel hero.</p>
+                    </div>
+                    <div class="user-options">
+                        <span class="material-icons">favoriteborder</span>
+                        <span class="material-icons">bookmark</span>
+                        <span class="material-icons">share</span>
+                    </div>
+                    <!-- <div class="card-controller">
+                        <div class="slider-buttons">
+                            <span class="prev"></span>
+                            <span class="next"></span>
+                        </div>
+                        <button id="play-btn">
+                            <img src="./img/play.png" alt="play movie">
+                        </button>
+                    </div> -->
+                </div>
+            </div>
+
+            <div class="popular-movies">
+                <h3>Popular</h3>
+                <div class="movies-slider">
+                    <div class="vcard"><img src="./img/the-greatest-beer-run-ever.png" alt="movie 1"><a href="#">The Greatest Beer Run Ever</a></div>
+                    <div class="vcard"><img src="./img/house-of-the-dragon.png" alt="move 2"><a href="#">House Of The Dragon</a></div>
+                    <div class="vcard"><img src="./img/the-walking-dead.png" alt="movie"><a href="#">The Walking Dead</a></div>
+                    <div class="vcard"><img src="./img/the-lord-of-the-rings.png" alt="movie 4"><a href="#">The Lord Of The Rings</a></div>
+                </div>
+            </div>
+
+            <div class="top-movies">
+                <h3>Top Rated</h3>
+                <div class="movies-slider">
+                    <div class="vcard">
+                        <img src="./img/the-greatest-beer-run-ever.png" alt="movie 1">
+                        <a href="#">The Greatest Beer Run Ever</a>
+                    </div>
+                    <div class="vcard">
+                        <img src="./img/house-of-the-dragon.png" alt="move 2">
+                        <a href="#">House Of The Dragon</a>
+                    </div>
+                    <div class="vcard">
+                        <img src="./img/the-walking-dead.png" alt="movie">
+                        <a href="#">The Walking Dead</a>
+                    </div>
+                    <div class="vcard">
+                        <img src="./img/the-lord-of-the-rings.png" alt="movie 4">
+                        <a href="#">The Lord Of The Rings</a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <div class="right">
+            <div class="new-releases">
+                <div class="vcard">
+                    <img src="./img/the-greatest-beer-run-ever.png" alt="movie 1"><a href="#">The Greatest Beer Run Ever</a>
+                </div>
+                <div class="vcard">
+                    <img src="./img/house-of-the-dragon-backdrop.png" alt="move 2"><a href="#">House Of The Dragon</a>
+                </div>
+            </div>
+
+            <div class="genre-tags">
+                <h3>Pick By Genres</h3>
+                <div class="tags">
+                    <button href="#" class="tag">Action</button>
+                    <button href="#" class="tag">Sci-fi & Fantasy</button>
+                    <button href="#" class="tag">Crime</button>
+                    <button href="#" class="tag">War & Politics</button>
+                    <button href="#" class="tag">Comedy</button>
+                    <button href="#" class="tag">Documentary</button>
+                    <button href="#" class="tag">Drama</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Freebirds - Travelling made easy</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="logo"><a href="index.html">FREEBIRDS</a></div>
+        <nav id="main-nav">
+            <ul>
+                <li class="active"><a href="#"><img src="./img/fa_plane.png" alt="Tickets">Tickets</a></li>
+                <li><a href="#"><img src="./img/ic_baseline-hotel.png" alt="Stays">Stays</a></li>
+                <li><a href="#"><img src="./img/ic_baseline-festival.png" alt="Festivals">Festivals</a></li>
+                <li><a href="#"><img src="./img/ant-design_info-outlined.png" alt="About">About Us</a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section-a">
+            <h1 class="section-heading">Travelling made easy</h1>
+            <div class="main-tab">
+                <div class="tab-header">
+                    <div id="flights" class="active">Flights
+                    </div>
+                    <div id="tickets">Tickets</div>
+                    <div id="events">Events</div>
+                </div>
+
+                <div class="tab-body">
+                    <div class="form-input">
+                        <label>From</label>
+                        <input type="text" id="fromId" placeholder="HO CHI MINH CITY">
+                    </div>
+                    <div class="form-input">
+                        <label>To</label>
+                        <input type="text" id="toId" placeholder="ANY WHERE">
+                    </div>
+                    <div class="form-input">
+                        <label>Date</label>
+                        <div class="row">
+                            <input type="datetime" id="dateId" placeholder="07/10/2022 - 11/10/2022">
+                            <img src="./img/bi_calendar-date.png" alt="date">
+                        </div>
+                    </div>
+                    <div class="form-input">
+                        <label>Adults</label>
+                        <div class="row">
+                            <input type="text" id="guestId" placeholder="-   2   +">
+                            <img src="./img/bi_calendar-date.png" alt="date">
+                        </div>
+                    </div>
+                    <div class="search-btn">
+                        <img src="./img/charm_search.png" alt="search">
+                    </div>
+                </div>
+           </div>
+
+           <div class="bottom-sub-heading">
+                <h4>+10M BOOKINGS THROUGH <span>FREEBIRD</span></h4>
+           </div>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

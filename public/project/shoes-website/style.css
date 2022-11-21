@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    min-height: 64px;
+    background: #000;
+    color: #fff;
+    z-index: 1;
+}
+
+
+/* NAVBAR */
+nav ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+
+#main-nav {
+    margin-left: auto;
+}
+
+#main-nav ul {
+    display: flex;
+}
+
+#main-nav ul li a {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.side-menu {
+    padding-top: 30px;
+}
+
+.side-menu li {
+    padding-bottom: 20px;
+}
+
+.side-menu li a {
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#side-setting {
+    
+}
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding-right: 5px;
+}
+
+.logo a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 1200px;
+    align-items: center;
+}
+
+/* SIDEBAR */
+.sidebar {
+    top: 100px;
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    border-right: 1px solid rgba(0, 0, 0, 0.25)
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+/* MAIN SECTION */
+.main {
+    position: absolute;
+    padding-left: 20px;
+    top: 100px;
+    left: 25%;
+    flex-wrap: wrap;
+}
+
+
+/* SLIDER */
+.slider {
+    position: relative;
+}
+
+.slide-controller {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top: 50%;
+}
+
+#selector {
+    display: flex;
+    justify-content: center;
+}
+
+.so {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #4A4D56;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.so.active {
+    background: #000;
+    transform: scale(1.2);
+}
+
+.prv-btn {
+    cursor: pointer;
+}
+
+.next-btn {
+    cursor: pointer;
+}
+
+.prv-btn:active {
+    transform: scale(1.05);
+}
+
+.next-btn:active {
+    transform: scale(1.5);
+}
+
+
+/* CARD */
+
+.card {
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    padding-top: 60px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background: #000;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.card-info {
+    padding-left: 20px;
+}
+
+.card-info a {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.card-info p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+/* HERO SECTION */
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.btn {
+    margin: 30px auto;
+    background: #000;
+    color: #fff;
+    max-width: 150px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* LINE BREAKER */
+.line-breaker {
+    margin-top: 40px;
+    width: 80%;
+    height: 0px;
+    left: 120px;
+    top: 485px;
+    border: 1px solid #D2D2D2;
+}
+
+@media screen and (max-width: 768px){
+    .sidebar {
+        display: none;
+    }
+    .main {
+        max-width: 100%;
+        padding-left: 0;
+        left: 0;
+        padding: 0 20px;
+    }    
+    #main-nav {
+        display: none;
+    }
+    .container {
+        justify-content: center;
+    }
+    .slide-controller {
+        display: none;
+    }
+}

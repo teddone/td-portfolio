@@ -13,42 +13,42 @@ const projectList = [
     title: 'Movies Website',
     image: imgMoPhinDark,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/mophin/'
   },
   {
     id: 2,
     title: 'Responsive Dashboard Dark',
     image: imgResponsiveDashboardDark,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/dashboard'
   },
   {
     id: 3,
     title: 'Travel Website',
     image: imgTravelApp,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/freebirds'
   },
   {
     id: 4,
-    title: 'SpaceX Website',
+    title: 'SpaceX Clone',
     image: imgSpaceX,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/spacex-clone'
   },  
   {
     id: 5,
     title: 'Shoes Website',
     image: imgShoesWebsite,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/shoes-website'
   },
   {
     id: 6,
     title: 'Responsive Dashboard',
     image: imgResponsiveDashboard,
     github: 'https://github.com/teddone/td-portfolio',
-    demo: '#'
+    demo: '/project/dashboard'
   },
 ]
 
